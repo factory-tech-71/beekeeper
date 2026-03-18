@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/drone.png</file>
+        <file>icons/leader.png</file>
+    </qresource>
+    <qresource prefix="/qml">
+        <file alias="MapView.qml">../src/gui/MapView.qml</file>
+    </qresource>
+</RCC>

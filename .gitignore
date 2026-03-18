@@ -1,0 +1,29 @@
+# CMake
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Qt
+*.moc
+*.qrc.cpp
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# executables
+Pchelovod
+Pchelovod.exe
+
+# temporary files
+*.o
+*.obj
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# models (большие файлы)
+models/*.hef
