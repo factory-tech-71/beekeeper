@@ -78,8 +78,8 @@ wget https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.18.
 ```
 ### 5. Сборка проекта
 ```bash
-git clone <ваш-репозиторий> Пчеловод
-cd Пчеловод
+git clone https://github.com/factory-tech-71/beekeeper.git
+cd beekeeper
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc)
