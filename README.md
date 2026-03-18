@@ -98,13 +98,13 @@ sim_vehicle.py -v ArduCopter -I2 --out=udp:127.0.0.1:14552
 В Пчеловоде подключитесь к первому порту (14550) — остальные дроны обнаружатся автоматически.
 Дорожная карта (ближайшие планы на 2026)
 
- Полноценный динамический слой дронов на карте (Repeater + маркеры)
- Поддержка RTSP/GStreamer для получения видео с камер дронов
- Реальный Hailo post-processing с NMS и классами COCO
- Поддержка .plan файлов (QGroundControl) вместо простого txt
- Алгоритмы роевого интеллекта (formation control, obstacle avoidance)
- Поддержка PX4 + ArduPilot (сейчас лучше работает с ArduPilot)
- Многопоточная телеметрия и низкая задержка offboard
+ - Полноценный динамический слой дронов на карте (Repeater + маркеры)
+ - Поддержка RTSP/GStreamer для получения видео с камер дронов
+ - Реальный Hailo post-processing с NMS и классами COCO
+ - Поддержка .plan файлов (QGroundControl) вместо простого txt
+ - Алгоритмы роевого интеллекта (formation control, obstacle avoidance)
+ - Поддержка PX4 + ArduPilot (сейчас лучше работает с ArduPilot)
+ - Многопоточная телеметрия и низкая задержка offboard
 
 Лицензия
 MIT License
